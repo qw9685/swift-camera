@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04516AD323974CC2004D8683 /* cameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04516AD223974CC2004D8683 /* cameraManager.swift */; };
+		0457407823A09315003CDE32 /* albumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457407723A09315003CDE32 /* albumViewController.swift */; };
+		0457407A23A09490003CDE32 /* albumManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457407923A09490003CDE32 /* albumManager.swift */; };
+		0457407C23A0CBFA003CDE32 /* albumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0457407B23A0CBFA003CDE32 /* albumModel.swift */; };
+		04B3C78E239E15D00097F7AF /* cameraManager+sampleBufferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3C78D239E15D00097F7AF /* cameraManager+sampleBufferDelegate.swift */; };
+		04D6FBC6239790B800404BD0 /* cameraManager+privateMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6FBC5239790B800404BD0 /* cameraManager+privateMethod.swift */; };
+		04D6FBC8239791E100404BD0 /* cameraManager+publicMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D6FBC7239791E100404BD0 /* cameraManager+publicMethod.swift */; };
+		04DFF47D2395067F00D5270D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF47C2395067F00D5270D /* AppDelegate.swift */; };
+		04DFF4862395068000D5270D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DFF4852395068000D5270D /* Assets.xcassets */; };
+		04DFF4942395068100D5270D /* __Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF4932395068100D5270D /* __Tests.swift */; };
+		04DFF49F2395068100D5270D /* __UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF49E2395068100D5270D /* __UITests.swift */; };
+		04DFF4BE23950A2D00D5270D /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF4BD23950A2D00D5270D /* mainViewController.swift */; };
+		04DFF4C023950C2D00D5270D /* scrollViewPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF4BF23950C2D00D5270D /* scrollViewPageView.swift */; };
+		04DFF4C223950D0D00D5270D /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF4C123950D0D00D5270D /* Common.swift */; };
+		04DFF4C62395139400D5270D /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF4C52395139300D5270D /* UIColor+Extension.swift */; };
+		04DFF4C82395193C00D5270D /* scrollTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DFF4C72395193C00D5270D /* scrollTypeView.swift */; };
+		04DFF4CC23960E4E00D5270D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DFF4CB23960E4E00D5270D /* LaunchScreen.storyboard */; };
+		04F93CC5239E21A10033A4FA /* encodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F93CC4239E21A10033A4FA /* encodeManager.swift */; };
+		04F93CC7239E495B0033A4FA /* cameraConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F93CC6239E495B0033A4FA /* cameraConfig.swift */; };
+		0F9F767AA913562B8C103856 /* libPods-相机Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E606869E20105F755697D858 /* libPods-相机Tests.a */; };
+		A1DE56A8EDA09BEC1B1A0C9F /* libPods-相机.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D29F82435CB697741578C8B /* libPods-相机.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DFF4902395068100D5270D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DFF4712395067F00D5270D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DFF4782395067F00D5270D;
+			remoteInfo = "相机";
+		};
+		04DFF49B2395068100D5270D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DFF4712395067F00D5270D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04DFF4782395067F00D5270D;
+			remoteInfo = "相机";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04516AD223974CC2004D8683 /* cameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraManager.swift; sourceTree = "<group>"; };
+		0457407723A09315003CDE32 /* albumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumViewController.swift; sourceTree = "<group>"; };
+		0457407923A09490003CDE32 /* albumManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumManager.swift; sourceTree = "<group>"; };
+		0457407B23A0CBFA003CDE32 /* albumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = albumModel.swift; sourceTree = "<group>"; };
+		04B3C78D239E15D00097F7AF /* cameraManager+sampleBufferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cameraManager+sampleBufferDelegate.swift"; sourceTree = "<group>"; };
+		04D6FBC5239790B800404BD0 /* cameraManager+privateMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cameraManager+privateMethod.swift"; sourceTree = "<group>"; };
+		04D6FBC7239791E100404BD0 /* cameraManager+publicMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cameraManager+publicMethod.swift"; sourceTree = "<group>"; };
+		04DFF4792395067F00D5270D /* 相机.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "相机.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFF47C2395067F00D5270D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		04DFF4852395068000D5270D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04DFF48A2395068000D5270D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		04DFF48F2395068100D5270D /* 相机Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "相机Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFF4932395068100D5270D /* __Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __Tests.swift; sourceTree = "<group>"; };
+		04DFF4952395068100D5270D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DFF49A2395068100D5270D /* 相机UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "相机UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04DFF49E2395068100D5270D /* __UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = __UITests.swift; sourceTree = "<group>"; };
+		04DFF4A02395068100D5270D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DFF4BD23950A2D00D5270D /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		04DFF4BF23950C2D00D5270D /* scrollViewPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollViewPageView.swift; sourceTree = "<group>"; };
+		04DFF4C123950D0D00D5270D /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		04DFF4C52395139300D5270D /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		04DFF4C72395193C00D5270D /* scrollTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scrollTypeView.swift; sourceTree = "<group>"; };
+		04DFF4CB23960E4E00D5270D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F93CC4239E21A10033A4FA /* encodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = encodeManager.swift; sourceTree = "<group>"; };
+		04F93CC6239E495B0033A4FA /* cameraConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cameraConfig.swift; sourceTree = "<group>"; };
+		32985E3CB2CFBF456283D6CE /* Pods-相机Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-相机Tests.debug.xcconfig"; path = "Target Support Files/Pods-相机Tests/Pods-相机Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		377071A7773E5BD38408EFCF /* Pods-相机.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-相机.release.xcconfig"; path = "Target Support Files/Pods-相机/Pods-相机.release.xcconfig"; sourceTree = "<group>"; };
+		5D29F82435CB697741578C8B /* libPods-相机.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-相机.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6017972D7FC6DCA194E516C /* Pods-相机Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-相机Tests.release.xcconfig"; path = "Target Support Files/Pods-相机Tests/Pods-相机Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AA7A221188C5DB649EBAC3A6 /* Pods-相机.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-相机.debug.xcconfig"; path = "Target Support Files/Pods-相机/Pods-相机.debug.xcconfig"; sourceTree = "<group>"; };
+		E606869E20105F755697D858 /* libPods-相机Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-相机Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04DFF4762395067F00D5270D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1DE56A8EDA09BEC1B1A0C9F /* libPods-相机.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF48C2395068100D5270D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9F767AA913562B8C103856 /* libPods-相机Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF4972395068100D5270D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041BCE78239F6A1D0075ED1D /* ccCameraManager */ = {
+			isa = PBXGroup;
+			children = (
+				04516AD223974CC2004D8683 /* cameraManager.swift */,
+				04F93CC6239E495B0033A4FA /* cameraConfig.swift */,
+				04F93CC4239E21A10033A4FA /* encodeManager.swift */,
+				04D6FBC7239791E100404BD0 /* cameraManager+publicMethod.swift */,
+				04D6FBC5239790B800404BD0 /* cameraManager+privateMethod.swift */,
+				04B3C78D239E15D00097F7AF /* cameraManager+sampleBufferDelegate.swift */,
+			);
+			path = ccCameraManager;
+			sourceTree = "<group>";
+		};
+		041BCE79239F6A2B0075ED1D /* ccAlbumManager */ = {
+			isa = PBXGroup;
+			children = (
+				0457407923A09490003CDE32 /* albumManager.swift */,
+			);
+			path = ccAlbumManager;
+			sourceTree = "<group>";
+		};
+		04DFF4702395067F00D5270D = {
+			isa = PBXGroup;
+			children = (
+				04DFF47B2395067F00D5270D /* 相机 */,
+				04DFF4922395068100D5270D /* 相机Tests */,
+				04DFF49D2395068100D5270D /* 相机UITests */,
+				04DFF47A2395067F00D5270D /* Products */,
+				23410DF06B83D26419A00111 /* Pods */,
+				60791AE21D6D6F8A73167731 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04DFF47A2395067F00D5270D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4792395067F00D5270D /* 相机.app */,
+				04DFF48F2395068100D5270D /* 相机Tests.xctest */,
+				04DFF49A2395068100D5270D /* 相机UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04DFF47B2395067F00D5270D /* 相机 */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4B62395080F00D5270D /* AppEntry */,
+				04DFF4AD2395070900D5270D /* Features */,
+				04DFF4B42395075600D5270D /* Config */,
+				04DFF4B22395074B00D5270D /* Vendors */,
+				04DFF4B12395074200D5270D /* Utilites */,
+				04DFF4B02395073B00D5270D /* Helpers */,
+				04DFF4AE2395072700D5270D /* extensions */,
+				04DFF4AF2395072E00D5270D /* Frameworks */,
+				04DFF4B52395075C00D5270D /* Resources */,
+			);
+			path = "相机";
+			sourceTree = "<group>";
+		};
+		04DFF4922395068100D5270D /* 相机Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4932395068100D5270D /* __Tests.swift */,
+				04DFF4952395068100D5270D /* Info.plist */,
+			);
+			path = "相机Tests";
+			sourceTree = "<group>";
+		};
+		04DFF49D2395068100D5270D /* 相机UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF49E2395068100D5270D /* __UITests.swift */,
+				04DFF4A02395068100D5270D /* Info.plist */,
+			);
+			path = "相机UITests";
+			sourceTree = "<group>";
+		};
+		04DFF4AD2395070900D5270D /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				041BCE79239F6A2B0075ED1D /* ccAlbumManager */,
+				041BCE78239F6A1D0075ED1D /* ccCameraManager */,
+				04DFF4B9239509FD00D5270D /* viewControllers */,
+				04DFF4BB23950A0700D5270D /* models */,
+				04DFF4BA23950A0300D5270D /* views */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		04DFF4AE2395072700D5270D /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4C52395139300D5270D /* UIColor+Extension.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		04DFF4AF2395072E00D5270D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		04DFF4B02395073B00D5270D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		04DFF4B12395074200D5270D /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		04DFF4B22395074B00D5270D /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		04DFF4B42395075600D5270D /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4C123950D0D00D5270D /* Common.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		04DFF4B52395075C00D5270D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4852395068000D5270D /* Assets.xcassets */,
+				04DFF48A2395068000D5270D /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04DFF4B62395080F00D5270D /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4CB23960E4E00D5270D /* LaunchScreen.storyboard */,
+				04DFF47C2395067F00D5270D /* AppDelegate.swift */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		04DFF4B9239509FD00D5270D /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4BD23950A2D00D5270D /* mainViewController.swift */,
+				0457407723A09315003CDE32 /* albumViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		04DFF4BA23950A0300D5270D /* views */ = {
+			isa = PBXGroup;
+			children = (
+				04DFF4BF23950C2D00D5270D /* scrollViewPageView.swift */,
+				04DFF4C72395193C00D5270D /* scrollTypeView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		04DFF4BB23950A0700D5270D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0457407B23A0CBFA003CDE32 /* albumModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		23410DF06B83D26419A00111 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA7A221188C5DB649EBAC3A6 /* Pods-相机.debug.xcconfig */,
+				377071A7773E5BD38408EFCF /* Pods-相机.release.xcconfig */,
+				32985E3CB2CFBF456283D6CE /* Pods-相机Tests.debug.xcconfig */,
+				A6017972D7FC6DCA194E516C /* Pods-相机Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		60791AE21D6D6F8A73167731 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D29F82435CB697741578C8B /* libPods-相机.a */,
+				E606869E20105F755697D858 /* libPods-相机Tests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04DFF4782395067F00D5270D /* 相机 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFF4A32395068100D5270D /* Build configuration list for PBXNativeTarget "相机" */;
+			buildPhases = (
+				7523CB97383AC38D9955EFB6 /* [CP] Check Pods Manifest.lock */,
+				04DFF4752395067F00D5270D /* Sources */,
+				04DFF4762395067F00D5270D /* Frameworks */,
+				04DFF4772395067F00D5270D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "相机";
+			productName = "相机";
+			productReference = 04DFF4792395067F00D5270D /* 相机.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04DFF48E2395068100D5270D /* 相机Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFF4A62395068100D5270D /* Build configuration list for PBXNativeTarget "相机Tests" */;
+			buildPhases = (
+				DE7EF6893046D5DAA218ABF5 /* [CP] Check Pods Manifest.lock */,
+				04DFF48B2395068100D5270D /* Sources */,
+				04DFF48C2395068100D5270D /* Frameworks */,
+				04DFF48D2395068100D5270D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DFF4912395068100D5270D /* PBXTargetDependency */,
+			);
+			name = "相机Tests";
+			productName = "相机Tests";
+			productReference = 04DFF48F2395068100D5270D /* 相机Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04DFF4992395068100D5270D /* 相机UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04DFF4A92395068100D5270D /* Build configuration list for PBXNativeTarget "相机UITests" */;
+			buildPhases = (
+				04DFF4962395068100D5270D /* Sources */,
+				04DFF4972395068100D5270D /* Frameworks */,
+				04DFF4982395068100D5270D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04DFF49C2395068100D5270D /* PBXTargetDependency */,
+			);
+			name = "相机UITests";
+			productName = "相机UITests";
+			productReference = 04DFF49A2395068100D5270D /* 相机UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04DFF4712395067F00D5270D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04DFF4782395067F00D5270D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					04DFF48E2395068100D5270D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 04DFF4782395067F00D5270D;
+					};
+					04DFF4992395068100D5270D = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 04DFF4782395067F00D5270D;
+					};
+				};
+			};
+			buildConfigurationList = 04DFF4742395067F00D5270D /* Build configuration list for PBXProject "相机" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04DFF4702395067F00D5270D;
+			productRefGroup = 04DFF47A2395067F00D5270D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04DFF4782395067F00D5270D /* 相机 */,
+				04DFF48E2395068100D5270D /* 相机Tests */,
+				04DFF4992395068100D5270D /* 相机UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04DFF4772395067F00D5270D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFF4862395068000D5270D /* Assets.xcassets in Resources */,
+				04DFF4CC23960E4E00D5270D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF48D2395068100D5270D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF4982395068100D5270D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7523CB97383AC38D9955EFB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-相机-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE7EF6893046D5DAA218ABF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-相机Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04DFF4752395067F00D5270D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFF4C223950D0D00D5270D /* Common.swift in Sources */,
+				04516AD323974CC2004D8683 /* cameraManager.swift in Sources */,
+				04DFF4C023950C2D00D5270D /* scrollViewPageView.swift in Sources */,
+				04DFF47D2395067F00D5270D /* AppDelegate.swift in Sources */,
+				04F93CC7239E495B0033A4FA /* cameraConfig.swift in Sources */,
+				04DFF4C82395193C00D5270D /* scrollTypeView.swift in Sources */,
+				04D6FBC6239790B800404BD0 /* cameraManager+privateMethod.swift in Sources */,
+				04DFF4BE23950A2D00D5270D /* mainViewController.swift in Sources */,
+				04F93CC5239E21A10033A4FA /* encodeManager.swift in Sources */,
+				04D6FBC8239791E100404BD0 /* cameraManager+publicMethod.swift in Sources */,
+				0457407823A09315003CDE32 /* albumViewController.swift in Sources */,
+				0457407C23A0CBFA003CDE32 /* albumModel.swift in Sources */,
+				04DFF4C62395139400D5270D /* UIColor+Extension.swift in Sources */,
+				04B3C78E239E15D00097F7AF /* cameraManager+sampleBufferDelegate.swift in Sources */,
+				0457407A23A09490003CDE32 /* albumManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF48B2395068100D5270D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFF4942395068100D5270D /* __Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04DFF4962395068100D5270D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFF49F2395068100D5270D /* __UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04DFF4912395068100D5270D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DFF4782395067F00D5270D /* 相机 */;
+			targetProxy = 04DFF4902395068100D5270D /* PBXContainerItemProxy */;
+		};
+		04DFF49C2395068100D5270D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04DFF4782395067F00D5270D /* 相机 */;
+			targetProxy = 04DFF49B2395068100D5270D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04DFF4A12395068100D5270D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04DFF4A22395068100D5270D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04DFF4A42395068100D5270D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA7A221188C5DB649EBAC3A6 /* Pods-相机.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F9MV3MZ2S;
+				INFOPLIST_FILE = "相机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = excelDemo.id.CustomFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04DFF4A52395068100D5270D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 377071A7773E5BD38408EFCF /* Pods-相机.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5F9MV3MZ2S;
+				INFOPLIST_FILE = "相机/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = excelDemo.id.CustomFont;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04DFF4A72395068100D5270D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32985E3CB2CFBF456283D6CE /* Pods-相机Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "相机Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc-camera.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/相机.app/相机";
+			};
+			name = Debug;
+		};
+		04DFF4A82395068100D5270D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6017972D7FC6DCA194E516C /* Pods-相机Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "相机Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc-camera.--Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/相机.app/相机";
+			};
+			name = Release;
+		};
+		04DFF4AA2395068100D5270D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "相机UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc-camera.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "相机";
+			};
+			name = Debug;
+		};
+		04DFF4AB2395068100D5270D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "相机UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cc-camera.--UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "相机";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04DFF4742395067F00D5270D /* Build configuration list for PBXProject "相机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFF4A12395068100D5270D /* Debug */,
+				04DFF4A22395068100D5270D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFF4A32395068100D5270D /* Build configuration list for PBXNativeTarget "相机" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFF4A42395068100D5270D /* Debug */,
+				04DFF4A52395068100D5270D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFF4A62395068100D5270D /* Build configuration list for PBXNativeTarget "相机Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFF4A72395068100D5270D /* Debug */,
+				04DFF4A82395068100D5270D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04DFF4A92395068100D5270D /* Build configuration list for PBXNativeTarget "相机UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04DFF4AA2395068100D5270D /* Debug */,
+				04DFF4AB2395068100D5270D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04DFF4712395067F00D5270D /* Project object */;
+}
